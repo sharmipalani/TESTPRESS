@@ -1,0 +1,91 @@
+<html>
+
+<head>
+
+    <script>
+
+
+
+        ///1.WRITE A PROGRAM TO PRINT THE REVERSE OF THE GIVEN STRING.
+        ///SOLUTION:
+
+
+        var good = "codecode"
+        var p = good.split("").reverse().join("");
+        console.log("1.THE REVERSED STRING IS:")
+        console.log(p);
+
+
+
+        ///2.GIVEN A NUMBER, CHECK WHETHER IT IS A PRIME NUMBER OR NOT.
+        ///SOLUTION:
+
+        var a = 3;
+        if (a % 3 === 0) {
+            console.log("2. 3 IS A PRIME NUMBER");
+            console.log("YES");
+        }
+
+        var b = 4;
+        if (b % 2 === 0) {
+            console.log("  4 IS NOT A PRIME NUMBER");
+            console.log("NO");
+        }
+
+
+        ///3.GIVEN AN ARRAY OF NUMBERS, ARRANGE THEM IN A WAY THAT IT FORMS THE LARGEST VALUE.
+        ///SOLUTION:
+
+        for (i = 0; i <= 1000; i++) {
+            var green = [54, 546, 548, 60];
+            var ad = green.reverse().join("");
+        }
+        console.log("3. REARRANGED ARRAY THAT FORMS THE LARGEST VALUE:");
+        console.log(ad);
+
+
+
+        ///4. Given a number N, print reverse of number N.
+
+        let f = "988"
+        console.log("4. REVERSE OF NUMBER N:")
+        console.log(f.split("").reverse().join(""));
+
+
+        ///5.GIVEN AN ARRAY OF NUMBERS, FIND THE MAXIMUM AND MINIMUM ELEMENT IN THE ARRAY:
+
+        function findMaxAndMin(arr) {
+            if (arr.length === 0) {
+                return "The array is empty";
+            }
+
+            let max = arr[0];
+            let min = arr[0];
+
+            for (let i = 1; i < arr.length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
+                } else if (arr[i] < min) {
+                    min = arr[i];
+                }
+            }
+
+            return `${max} ${min}`
+        }
+
+        const input = [54, 546, 548, 60];
+        const result = findMaxAndMin(input);
+        console.log("5. THE MAXIMUM AND MINIMUM VALUE OF THE ARRAY IS:")
+        console.log(result);
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
